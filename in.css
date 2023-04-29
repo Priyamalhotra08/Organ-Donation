@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+
+
+}
+
+h1 {
+   
+    font-family: 'Pacifico', cursive;
+
+}
+
+.container {
+   
+    display: flex;
+    max-width: 80rem;
+
+}
+
+.navbar {
+    margin-left: 10rem;
+
+}
+
+.but {
+    /* display: inline-block; */
+    /* outline: 0; */
+    /* margin: 2em; */
+    border: 0;
+    cursor: pointer;
+    font-weight: 500;
+    color: #fff;
+    font-size: 18px;
+    width: 15em;
+    height: 2.5em;
+    margin-left: 10em;
+    /* padding:1em; */
+    border-radius: 30px;
+    background-image: linear-gradient(180deg, #7c8aff, #3c4fe0);
+    box-shadow: 0 4px 11px 0 rgb(37 44 97 / 15%), 0 1px 3px 0 rgb(93 100 148 / 20%);
+    transition: all .2s ease-out;
+}
+
+.but:hover {
+    box-shadow: 0 8px 22px 0 rgb(37 44 97 / 15%), 0 4px 6px 0 rgb(93 100 148 / 20%);
+}
+.to{
+    display: flex;
+    position: absolute;
+}
+.first{ 
+   
+    /* margin-left: 30em;  */
+    height:36em;
+    width: 50em;
+    
+    background-color: #e969b1;  /* fallback for old browsers */
+    background: -webkit-radial-gradient(to right, #47c2fc 2%, hsl(143, 83%, 68%));  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #22b8d3, #54e7bb); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+.left{
+    height:36em;
+    width:34.3em;
+    /* margin-left: 2em; */
+    background: linear-gradient(178.6deg, rgb(20, 132, 160) 11.8%, rgb(16, 117, 175) 83.8%);
+    
+}
+figure{
+position: absolute;
+    margin-left: 35em;
+    
+}
+h2{
+    overflow: hidden;
+    border-right: .15em solid rgb(108, 96, 221);
+    white-space: nowrap;
+    animation: 
+    typing 5s steps(13) forwards;
+}
+@keyframes typing {
+    from { width: 0 }
+    to { width: 35% }
+  }
+  
